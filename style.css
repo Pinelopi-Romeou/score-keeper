@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 300px;
+    margin-top: 80px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+img {
+    width: 100%;
+    border-radius: 3px;
+}
+
+.buttons {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+p {
+    margin: 5px;
+}
+
+h1 {
+    font-size: 18px;
+}
+
+button {
+    /* padding: 7px 5px; */
+    width: 140px;
+    height: 30px;
+    margin: 0 2px;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+.p1Btn {
+    background-color: hsl(141, 71%, 48%);
+}
+
+.p2Btn {
+    background-color: hsl(217, 71%, 53%);
+}
+
+.reset {
+    background-color: hsl(348, 100%, 61%);
+}
+
+.winner {
+    color: hsl(141, 71%, 48%);
+}
+
+.loser {
+    color: hsl(348, 100%, 61%);
+}

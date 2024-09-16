@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Score Keeper</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="container">
+        <img src="./img/miikka-luotio-i3WlrO7oAHA-unsplash.jpg" alt="darts-photo">
+        <h1>Darts score keeper</h1>
+        <h2><span id="p1Display">0</span> to <span id="p2Display">0</span></h2>
+        <p>Use the buttons below to keep score</p>
+        <p>Playing to 
+            <select name="" id="playTo">
+                <option value="3">3</option>
+                <option value="5">5</option>
+                <option value="10">10</option>
+            </select>
+        </p>
+        
+        <div class="buttons">
+            <button class="p1Btn" id="p1Btn">+1 Player 1</button>
+            <button class="p2Btn" id="p2Btn">+1 Player 2</button>
+            <button class="reset" id="reset">Reset</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
